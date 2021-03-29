@@ -25,6 +25,7 @@
 		<javac srcdir="${src}" destdir="${bin}" includeAntRuntime="false">
             <classpath refid="classpath"/>	
 			<include name="cs681/*.java"/>
+			<include name="NBAPointsPerGame.txt"/>
 		</javac>
 	</target>
 
